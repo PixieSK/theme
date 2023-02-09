@@ -1,0 +1,107 @@
+/**
+ * @name new
+ * @author ClearVision Team
+ * @version 6.3.0
+ * @description Highly customizable and beautiful theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite 7pNUC9C
+ * @BDEditor Clear Vision
+*/
+
+/*@import url('https://fonts.cdnfonts.com/css/whitney-2');
+@import url('https://fonts.cdnfonts.com/css/whitney');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@100;300;400;500;700&display=swap');
+@import url('file:///D:/Downloads/fonts/whitney');*/
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+
+@font-face {
+  font-family: 'no-book';
+  font-style: normal;
+  font-weight: 500;
+  src: local("SourceSansPro-regular"), url('/fonts/whitney-book.ttf') format('truetype');
+  /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;*/
+}
+
+:root {
+  --main-color: #780cec;
+  --hover-color: #1e63b3;
+  --success-color: #43b581;
+  --danger-color: #982929;
+  --url-color: var(--main-color);
+  --background-image: url('https://wallpaperaccess.com/full/2416004.jpg');
+  --background-shading: 100%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 180%;
+  --background-contrast: 300%;
+  --background-saturation: 300%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 15px;
+  --background-overlay: rgb(0,0,0,0.62);
+  --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 3px;
+  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 3px;
+  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --home-position: center;
+  --home-size: 40px;
+  --channel-unread: var(--main-color);
+  --channel-color: rgba(255,255,255,0.3);
+  --muted-color: rgba(255,255,255,0.1);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: no-book;
+  --code-font: Consolas;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+}
+
+/* Any custom CSS below here */
+
+
+/*body {
+  font-family: 'no-book', Fallback, sans-serif;
+}*/
+
